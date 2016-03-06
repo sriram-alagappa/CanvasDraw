@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         Paint paint = new Paint();
         Path path = new Path();
         paint.setStyle(Paint.Style.FILL);
+
         paint.setColor(Color.TRANSPARENT);
         canvas.drawPaint(paint);
         for (int i = 50; i < 100; i++) {
